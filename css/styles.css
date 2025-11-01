@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --tm-warm-terracotta: #A55C4E;
+  --tm-sage-green: #A9B89E;
+  --tm-cream: #F7F1E1;
+  --tm-charcoal-gray: #333333;
+  --tm-soft-peach: #FFD7B5;
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -11611,7 +11616,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: var(--tm-sage-green);
 }
 .profile .dots-3 {
   position: absolute;
