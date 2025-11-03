@@ -11583,6 +11583,32 @@ html {
   font-size: 1.5rem;
 }
 
+.circle-frame {
+  --size: 300px; /* change to fit your image size */
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  padding: 12px; /* thickness of the ring */
+  background: conic-gradient(
+    #FFD7B5 0deg 120deg,     
+    #333333 120deg 240deg,   
+    #A9B89E 240deg 300deg,  
+    #A55C4E 300deg 360deg    
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-frame img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #222; /* optional dark inner ring */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
 .profile {
   position: relative;
   height: 75vw;
